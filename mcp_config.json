@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "fetch": {
+            "command": "uvx",
+            "args": ["mcp-server-fetch"]
+        },
+        "file-system": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "./"
+            ]
+        }
+    }
+}
